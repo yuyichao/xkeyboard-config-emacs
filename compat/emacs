@@ -1,7 +1,0 @@
-partial xkb_compatibility "emacs"  {
-    interpret.repeat = True;
-    interpret EMACS_KEY {
-    };
-    interpret EMACS_KEY2 {
-    };
-};
