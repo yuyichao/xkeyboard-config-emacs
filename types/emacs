@@ -1,0 +1,19 @@
+default xkb_types "emacs" {
+    type "EMACS_KEYS" {
+        modifiers= Shift+Control;
+        map[Shift]= Level2;
+        map[Control]= Level3;
+        map[Shift+Control]= Level4;
+        level_name[Level1]= "Base";
+        level_name[Level2]= "Caps";
+        level_name[Level3]= "Move";
+        level_name[Level4]= "Select";
+    };
+    type "EMACS_KEYS2" {
+        modifiers= Shift+Lock;
+        map[Shift]= Level2;
+        map[Lock]= Level2;
+        level_name[Level1]= "Base";
+        level_name[Level2]= "Caps";
+    };
+};

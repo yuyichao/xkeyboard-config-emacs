@@ -34,7 +34,7 @@ tj tm tr tw tz \
 ua us uz vn \
 za \
 altwin capslock compose ctrl empty eurosign rupeesign group inet \
-keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl typo
+keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl typo emacs
 
 dir_data = $(dist_symbols_DATA)
 

@@ -4,7 +4,7 @@ dist_types_DATA = \
 basic cancel caps \
 complete default extra \
 iso9995 level5 mousekeys nokia numpad \
-pc README
+pc emacs README
 
 dir_data = $(dist_types_DATA)
 
